@@ -1,0 +1,29 @@
+{
+  "name": "esbuild-angular",
+  "version": "1.0.0",
+  "description": "Example application in angular and build with esbuild",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild src/index.ts --bundle --outfile=dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcin-wosinek/esbuild-angular.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcin-wosinek/esbuild-angular/issues"
+  },
+  "homepage": "https://github.com/marcin-wosinek/esbuild-angular#readme",
+  "devDependencies": {
+    "esbuild": "^0.12.15"
+  },
+  "dependencies": {
+    "@angular/core": "^12.1.1",
+    "@angular/platform-browser": "^12.1.1",
+    "@angular/platform-browser-dynamic": "^12.1.1"
+  }
+}
